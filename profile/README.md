@@ -9,5 +9,5 @@ Welcome to virtualStyle's Github organization page!
 
 
 
-![index-bg-10](./vs-glass-text.svg)
+![index-bg-10](./static/vs-glass-text.svg)
 
