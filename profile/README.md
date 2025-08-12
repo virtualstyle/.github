@@ -1,13 +1,7 @@
-<img src="./static/vs-logo-light.png" style="width:420px;"/>
-
-[![virtualstyle](https://img.shields.io/badge/virtualStyle-intelligent_systems_engineering-076599?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1%2BjfqAAABIWlDQ1BJQ0MgcHJvZmlsZQAAKJGdkL1KxEAUhb%2Bs6w%2BilWIhFim23dJUFq4KQVCIcQWjVTbJ4mISQ5Jl8Q18E32YLQTBd7BVsPZMtLAwjQOH%2B3G595yZgY6dRlnV3Ycsr0vXHwSXwZW9%2FEaXRamHFUZVMfC8E1rP5yuWqS9949U%2B9%2BdZipMqUp1LeVSUNVh7YmdWF4YlNm%2BH%2FqH4QWzHWR6Ln8S9OIsNm10%2FS6fRj6e5zVqSX5ybvrSDyzGneNiMmDIhpaavmqtzhMOuqktJyD0VkWpKot5MMzU3okpOLgeioUi3acnbbvI8pYzkMZGXSbgjk6fJw%2Fzv99rHWbNpbc2LsAyb1oLUGY%2Fh%2FRHWA9h4htXrlqyV329rmXGamX%2B%2B8Qu2WFBLO0OIuAAAAAJiS0dEAACqjSMyAAAACXBIWXMAAAsTAAALEwEAmpwYAAABg0lEQVQoz6WPSyjDARzHv%2F%2F%2FjM2jMYktVszymLjJLqIoB8sB5VFKSivjgBxGchEtF2KNorW0vC4kESbvmUd%2FOchjSUpIHv2N%2Bq%2F%2Ffg6Ojvscv5%2B%2Bhw8QKsz%2Fya%2FaqnrSRT%2FncPp1RvinD0uav0CJJCMZbbQBYcBZyVua2pvNvao4o%2FJ7tWsiyjldP%2FSgXDdJ%2Fz6zfaCRRWDBAhqd730ADe57qkUVgcIBAB86I7X7KdJ6EEHnFfNWFYFAdUH7Ep8AACBYj6R0PtwgdtFtpdPh%2BOymTlIQaHIcYIPyiU65JgBPm5PNOBF%2F4steF9ht6YsFgN8gyiWynUOjwRZRaGPTYalJ33T1U3TyXsKpT%2B%2BVFSt3S8GbhUzAtdZDjnsCwbViDmgpmVqFmbFALm9mBnYvsgzDmb4tRYpgcjDiXPG1Xp0kYUgMxLlrcy%2BZoHzKdN1yrM3j2cfU01KXu%2BMx8jOWUXMx%2Bb6ssUY789fxnrFdcKeTKMuW98t50JvmpsgTd9WEKYTOL73bpeBUQSN9AAAAAElFTkSuQmCC&logoColor=000000&labelColor=ececec)](https://virtualstyle.us)
-
+![index-bg-10](./static/vs-glass-text.svg)
 
 # virtualStyle intelligent systems engineering on Github
 
-Welcome to virtualStyle's Github organization page!
+Welcome to virtualStyle's Github organization page! Here you will find several examples of our coding work product, for your perusal, or for use in your own open-source projects under the GPL v3 or later.
 
-
-
-![index-bg-10](./static/vs-glass-text.svg)
-
+<img src="./static/vs-logo-animated.svg" style="width:600px;">
