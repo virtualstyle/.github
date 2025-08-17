@@ -11,13 +11,25 @@
 		}
 	</style>
 
+	<style>
+		:root {
+			--vs-blue: #16699d;
+
+			--base-interval: 0.7s;
+			--base-2x: calc(var(--base-interval) * 2);
+			--base-3x: calc(var(--base-interval) * 3);
+			--base-4x: calc(var(--base-interval) * 4);
+			--base-half: 0.4s;
+			--base-iterations: 8;
+		}
+	</style>
+
 	<svg id="waves-svg" transform-origin="center" width="100%"
 		viewBox="0 0 700 200" preserveAspectRatio="xMidYMid meet"
 		style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 
 		<style>
 			:root {
-				--vs-blue: #17699c;
 				--waves-color: color-mix(in oklch, var(--vs-blue), transparent 1%);
 
 				--wave-start-delay: 0s;
@@ -149,7 +161,48 @@
 
 	</svg>
 
-	<svg id="rings-svg" transform-origin="center" width="100%"
+	<svg id="reflection" width="100%" height="100%" viewBox="0 0 700 200" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+
+		<style>
+				:root {
+					--reflection-delay: calc(var(--base-2x) * 2 + var(--base-interval) - 1.3s);
+					--reflection-duration: var(--base-4x);
+					--reflection-state: running;
+				}
+
+				#reflection {
+					animation: logo-reflection var(--reflection-duration) ease-in-out var(--reflection-delay) forwards;
+					animation-play-state: var(--reflection-state);
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+				}
+		</style>
+
+		<ellipse id="reflection-glass" cx="350" cy="99.1" rx="329.7" ry="39.2"
+			style="fill:#fff;fill-opacity:0.33;" />
+
+    <g id="reflection-left">
+        <path id="reflection-left-v" d="M43.887,112.799l33.836,7.622l-6.83,-19.032l-22.942,0l-4.064,11.41Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-i" d="M119.245,101.39l0,24.954l-21.02,-2.206l0,-22.748l21.02,0Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-r" d="M123.902,126.099l21.02,2.645l0,-27.355l-21.02,0.001l0,24.709Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-t" d="M204.289,100.069c-8.569,-0.001 -14.804,1.761 -18.708,5.284c-3.904,3.524 -5.856,9.289 -5.856,17.297l-0,9.598l21.021,-1.97c-0,-2.363 0.02,-4.425 0.06,-6.186c0.04,-1.762 0.36,-3.344 0.961,-4.745c0.56,-1.401 1.55,-2.512 2.973,-3.333c1.421,-0.821 3.493,-1.231 6.216,-1.231c1.121,0 2.592,0.24 4.413,0.72c1.822,0.481 5.615,1.322 5.615,1.322l-0,-14.835c-2.282,-0.601 -4.704,-1.071 -7.267,-1.411c-2.562,-0.341 -5.705,-0.511 -9.429,-0.511l0.001,0.001Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-u" d="M288.033,101.39l-21.022,-0.001l0,7.448c-3.642,-3.043 -6.986,-5.355 -10.029,-6.936c-3.043,-1.582 -6.667,-2.372 -10.871,-2.372c-6.687,0 -11.901,2.112 -15.645,6.336c-3.744,4.224 -5.615,10.58 -5.615,19.068l0,9.58l21.141,0.871c0,-3.484 0.09,-6.327 0.27,-8.529c0.18,-2.202 0.611,-4.064 1.291,-5.585c0.641,-1.401 1.632,-2.463 2.973,-3.183c1.342,-0.721 3.213,-1.081 5.615,-1.081c1.481,0 3.233,0.36 5.255,1.081c2.022,0.72 3.894,1.701 5.615,2.943l0,15.783l21.022,0.054l0,-35.477Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-a" d="M333.556,118.987l0,14.054c-3.565,-0.361 -6.447,-0.671 -8.649,-0.932c-2.202,-0.26 -4.364,-0.77 -6.486,-1.531c-1.842,-0.641 -3.274,-1.612 -4.294,-2.913c-1.022,-1.301 -1.532,-3.033 -1.532,-5.195c0,-3.163 0.851,-5.335 2.553,-6.516c1.702,-1.181 4.214,-1.772 7.536,-1.772c1.842,0 3.724,0.42 5.647,1.261c1.922,0.841 3.663,2.022 5.225,3.544Zm-0.001,-10.449c-1.442,-1.201 -2.733,-2.282 -3.874,-3.243c-1.141,-0.961 -2.673,-1.922 -4.594,-2.883c-1.882,-0.92 -3.714,-1.621 -5.496,-2.102c-1.782,-0.48 -4.274,-0.72 -7.477,-0.72c-5.966,0 -10.921,2.002 -14.865,6.006c-3.943,4.003 -5.915,9.048 -5.915,15.134c-0,5.005 1.001,9.049 3.003,12.132c2.002,3.083 60.118,5.611 60.118,5.611l-0,-37.082l-20.9,0l-0,7.147Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+        <path id="reflection-left-l" d="M380.208,101.39l-21.022,-0.001l0,36.587l21.022,0.495l0,-37.081Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
+    </g>
+    <g id="reflection-right">
+        <path id="reflection-right-s" d="M416.399,99.769c-6.847,-0.001 -12.863,0.66 -18.048,1.981c-5.185,1.322 -10,2.963 -14.445,4.925l0,21.261c0,0 11.471,-6.726 16.877,-8.768c5.405,-2.042 10.65,-3.063 15.736,-3.063c1.281,0 2.973,0.14 5.075,0.42c2.101,0.281 3.793,0.721 5.075,1.322c1.56,0.68 2.882,1.631 3.964,2.852c1.081,1.222 1.62,2.833 1.62,4.835c0,2.242 -0.88,4.064 -2.642,5.464c-1.762,1.402 -3.863,2.423 -6.307,3.063c-3.041,0.801 -6.296,1.563 -9.759,2.284c-3.463,0.719 40.106,3.176 40.844,0.18c0.538,-2.188 0.808,-4.589 0.808,-7.207c0,-8.889 -3.495,-16.037 -10.481,-21.442c-6.986,-5.404 -16.426,-8.108 -28.317,-8.108l0,0.001Z" style="fill:#17699c;fill-rule:nonzero;"/>
+        <path id="reflection-right-t" d="M488.094,100.069c-8.57,-0.001 -14.805,1.761 -18.709,5.284c-3.904,3.524 -5.856,9.289 -5.856,17.297l0,13.874l21.02,-1.541c0,0 0.02,-9.129 0.06,-10.891c0.041,-1.761 0.361,-3.343 0.962,-4.745c0.56,-1.4 1.552,-2.511 2.973,-3.332c1.422,-0.822 3.494,-1.231 6.216,-1.231c1.12,-0.001 2.593,0.239 4.415,0.719c1.821,0.481 3.093,0.922 3.813,1.323l1.802,-14.835c-2.282,-0.601 -4.704,-1.071 -7.267,-1.411c-2.563,-0.341 -5.707,-0.511 -9.429,-0.511Z" style="fill:#17699c;fill-rule:nonzero;"/>
+        <path id="reflection-right-y" d="M521.024,132.827l42.986,-3.642l-13.504,-26.669l-18.274,0.495l-11.208,29.816Z" style="fill:#17699c;fill-rule:nonzero;"/>
+        <path id="reflection-right-l" d="M603.24,101.39l-21.02,-0.001l0,25.802l21.019,-2.773l0,-23.029l0.001,0.001Z" style="fill:#17699c;fill-rule:nonzero;"/>
+        <path id="reflection-right-e" d="M645.628,99.589c-12.732,-0.001 -22.491,3.043 -29.279,9.129c-4.397,3.942 -7.369,8.968 -8.918,15.079c-0.841,3.323 64.683,-18.623 64.683,-18.623c-1.721,-0.68 -3.293,-1.311 -4.715,-1.892c-1.422,-0.58 -3.374,-1.171 -5.856,-1.771c-2.282,-0.601 -4.635,-1.071 -7.057,-1.412c-2.422,-0.34 -5.375,-0.51 -8.859,-0.51l0.001,0Z" style="fill:#17699c;fill-rule:nonzero;"/>
+    </g>
+
+	</svg>
+
+	<svg id="rings-svg" y="-2" transform-origin="center" width="100%"
 		viewBox="0 0 700 200" preserveAspectRatio="xMidYMid meet"
 		style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 
@@ -492,19 +545,6 @@
 	<svg id="vs-logo" width="100%" height="100%" viewBox="0 0 700 200"
 		style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 
-		<style>
-			:root {
-				--vs-blue: #16699d;
-
-				--base-interval: 0.7s;
-				--base-2x: calc(var(--base-interval) * 2);
-				--base-3x: calc(var(--base-interval) * 3);
-				--base-4x: calc(var(--base-interval) * 4);
-				--base-half: 0.4s;
-				--base-iterations: 8;
-			}
-		</style>
-
 		<defs id="vs-logo-defs">
 			<clipPath id="logo-reveal">
 				<rect x="0" y="0" width="700" height="98" />
@@ -523,19 +563,6 @@
 					--logo-reveal-delay: calc(var(--base-2x) + var(--base-interval) + var(--base-2x) - 0.75s);
 					--logo-reveal-duration: var(--base-interval);
 					--logo-reveal-state: running;
-
-					--reflection-delay: var(--base-interval);
-					--reflection-duration: var(--base-4x);
-					--reflection-state: running;
-				}
-
-				#reflection {
-					animation: logo-reflection var(--reflection-duration) ease-in-out var(--reflection-delay) forwards;
-					animation-play-state: var(--reflection-state);
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
 				}
 
 				#logo-animation {
@@ -593,30 +620,6 @@
 					}
 				}
 			</style>
-
-			<g id="reflection">
-
-				<ellipse id="reflection-glass" cx="350" cy="99.1" rx="329.7" ry="39.2"
-					style="fill:#fff;fill-opacity:0.33;" />
-
-				<g id="reflection-left">
-						<path id="reflection-left-v" d="M43.887,111.799l33.836,7.622l-6.83,-19.032l-22.942,0l-4.064,11.41Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-i" d="M119.245,100.39l-0,24.954l-21.02,-2.206l-0,-22.748l21.02,-0Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-r" d="M123.902,125.099l21.02,2.645l-0,-27.355l-21.02,0.001l-0,24.709Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-t" d="M204.289,99.069c-8.569,-0.001 -14.804,1.761 -18.708,5.284c-3.904,3.524 -5.856,9.289 -5.856,17.297l-0,9.598l21.021,-1.97c-0,-2.363 0.02,-4.425 0.06,-6.186c0.04,-1.762 0.36,-3.344 0.961,-4.745c0.56,-1.401 1.55,-2.512 2.973,-3.333c1.421,-0.821 3.493,-1.231 6.216,-1.231c1.121,0 2.592,0.24 4.413,0.72c1.822,0.481 5.615,1.322 5.615,1.322l0,-14.835c-2.282,-0.601 -4.704,-1.071 -7.267,-1.411c-2.562,-0.341 -5.705,-0.511 -9.429,-0.511Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-u" d="M288.033,100.39l-21.022,-0.001l0,7.448c-3.642,-3.043 -6.986,-5.355 -10.029,-6.936c-3.043,-1.582 -6.667,-2.372 -10.871,-2.372c-6.687,-0 -11.901,2.112 -15.645,6.336c-3.744,4.224 -5.615,10.58 -5.615,19.068l-0,9.58l21.141,0.871c-0,-3.484 0.09,-6.327 0.27,-8.529c0.18,-2.202 0.611,-4.064 1.291,-5.585c0.641,-1.401 1.632,-2.463 2.973,-3.183c1.342,-0.721 3.213,-1.081 5.615,-1.081c1.481,-0 3.233,0.36 5.255,1.081c2.022,0.72 3.894,1.701 5.615,2.943l0,15.783l21.022,0.054l-0,-35.477Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-a" d="M333.556,117.988l-0,14.053c-3.565,-0.361 -6.447,-0.671 -8.649,-0.932c-2.202,-0.26 -4.364,-0.77 -6.486,-1.531c-1.842,-0.641 -3.274,-1.612 -4.294,-2.913c-1.022,-1.301 -1.532,-3.033 -1.532,-5.195c-0,-3.163 0.851,-5.335 2.553,-6.516c1.702,-1.181 4.214,-1.772 7.536,-1.772c1.842,0 3.724,0.42 5.647,1.261c1.922,0.841 3.663,2.022 5.225,3.544Zm-0.001,-10.45c-1.442,-1.201 -2.733,-2.282 -3.874,-3.243c-1.141,-0.961 -2.673,-1.922 -4.594,-2.883c-1.882,-0.92 -3.714,-1.621 -5.496,-2.102c-1.782,-0.48 -4.274,-0.72 -7.477,-0.72c-5.966,-0 -10.921,2.002 -14.865,6.006c-3.943,4.003 -5.915,9.048 -5.915,15.134c0,5.005 1.001,9.049 3.003,12.132c2.002,3.083 60.118,5.611 60.118,5.611l0,-37.082l-20.9,-0l0,7.147Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-						<path id="reflection-left-l" d="M380.208,100.39l-21.022,-0.001l0,36.587l21.022,0.495l-0,-37.081Z" style="fill:#2f2f2f;fill-rule:nonzero;"/>
-				</g>
-				<g id="reflection-right">
-						<path id="reflection-right-s" d="M416.399,98.769c-6.847,-0.001 -12.863,0.66 -18.048,1.981c-5.185,1.322 -10,2.963 -14.445,4.925l0,21.261c0,-0 11.471,-6.726 16.877,-8.768c5.405,-2.042 10.65,-3.063 15.736,-3.063c1.281,-0 2.973,0.14 5.075,0.42c2.101,0.281 3.793,0.721 5.075,1.322c1.56,0.68 2.882,1.631 3.964,2.852c1.081,1.222 1.62,2.833 1.62,4.835c0,2.242 -0.88,4.064 -2.642,5.464c-1.762,1.402 -3.863,2.423 -6.307,3.063c-3.041,0.801 -6.296,1.563 -9.759,2.284c-3.463,0.719 40.106,3.176 40.844,0.18c0.538,-2.188 0.808,-4.589 0.808,-7.207c-0,-8.889 -3.495,-16.037 -10.481,-21.442c-6.986,-5.404 -16.426,-8.108 -28.317,-8.108Z" style="fill:#17699c;fill-rule:nonzero;"/>
-						<path id="reflection-right-t" d="M488.094,99.069c-8.57,-0.001 -14.805,1.761 -18.709,5.284c-3.904,3.524 -5.856,9.289 -5.856,17.297l0,13.874l21.02,-1.541c0,0 0.02,-9.129 0.06,-10.891c0.041,-1.761 0.361,-3.343 0.962,-4.745c0.56,-1.4 1.552,-2.511 2.973,-3.332c1.422,-0.822 3.494,-1.231 6.216,-1.231c1.12,-0.001 2.593,0.239 4.415,0.719c1.821,0.481 3.093,0.922 3.813,1.323l1.802,-14.835c-2.282,-0.601 -4.704,-1.071 -7.267,-1.411c-2.563,-0.341 -5.707,-0.511 -9.429,-0.511Z" style="fill:#17699c;fill-rule:nonzero;"/>
-						<path id="reflection-right-y" d="M521.024,131.827l42.986,-3.642l-13.504,-26.669l-18.274,0.495l-11.208,29.816Z" style="fill:#17699c;fill-rule:nonzero;"/>
-						<path id="reflection-right-l" d="M603.24,100.39l-21.02,-0.001l-0,25.802l21.019,-2.773l0,-23.029Z" style="fill:#17699c;fill-rule:nonzero;"/>
-						<path id="reflection-right-e" d="M645.628,98.589c-12.732,-0.001 -22.491,3.043 -29.279,9.129c-4.397,3.942 -7.369,8.968 -8.918,15.079c-0.841,3.323 64.683,-18.623 64.683,-18.623c-1.721,-0.68 -3.293,-1.311 -4.715,-1.892c-1.422,-0.58 -3.374,-1.171 -5.856,-1.771c-2.282,-0.601 -4.635,-1.071 -7.057,-1.412c-2.422,-0.34 -5.375,-0.51 -8.859,-0.51Z" style="fill:#17699c;fill-rule:nonzero;"/>
-				</g>
-
-			</g>
 
 			<g id="logo-text">
 				<path
@@ -788,14 +791,6 @@
 
 		<style>
 			:root {
-				--vs-blue: #17699c;
-
-				--base-interval: 1.2s;
-				--base-2x: calc(var(--base-interval) * 2);
-				--base-3x: calc(var(--base-interval) * 3);
-				--base-4x: calc(var(--base-interval) * 4);
-				--base-half: 0.6s;
-				--base-iterations: 6;
 
 				--drip-color: var(--vs-blue);
 				--drip-delay: 0s;
