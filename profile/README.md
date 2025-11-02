@@ -52,55 +52,6 @@ Whether it's DIY-friendly systems, or hands-on support, we provide the clarity, 
 </p>
 
 
-## Code Examples/Demos
-
-We're still working on broadening what we have publicly available, but we're confident the examples linked below serve as good examples of the quality we produce.
-
-<br>
-
-**We feel these examples of our original work demonstrate:**
-
-- our insight and creativity
-- our meticulous adherence to standards and best practices
-- our passion for modularity and reusability
-- our obsessive focus on simplicity and organization
-- and our expert level craftsmanship
-
-<br>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=virtualstyle&repo=dev-base)](https://github.com/anuraghazra/github-readme-stats)
-
-<br>
-
-- [Example One Link](http://github.com)
-- [Example Two Link](http://github.com)
-- [Example Three Link](http://github.com)
-
-<br>
-
-**We feel these modules we've adapted from open source demonstrate all of the above, as well as:**
-
-- we take good ideas and make them better
-- we make unscalable code scalable
-- we take single use code and abstract it to handle any use case
-- we create order out of disorder
-- we create custom configurable software from one-size-fits all non-customizeable code
-
-<br>
-
-- [Example One Link](http://github.com)
-- [Example Two Link](http://github.com)
-- [Example Three Link](http://github.com)
-
-<br>
-
-<p align="center">
-<br>
-  <img src="./static/divider-binary-a.svg" width="100%" alt="divider" style="opacity:0.75;">
-<br><br>
-</p>
-
-
 ## The Driving Force Behind virtual<span style="color:#17699c;font-weight:bold;">Style</span>
 
 ### Rob Wood, virtual<span style="color:#17699c;font-weight:bold;">Style</span>'s Founder and Principal Strategist/Engineer
