@@ -68,6 +68,10 @@ We're still working on broadening what we have publicly available, but we're con
 
 <br>
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vswood&repo=github-readme-stats)](https://github.com/vswood/github-readme-stats)
+
+<br>
+
 - [Example One Link](http://github.com)
 - [Example Two Link](http://github.com)
 - [Example Three Link](http://github.com)
@@ -124,7 +128,7 @@ The goal: to help small businesses *own* their technology — not be owned by it
 
 
 
-[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=vswood&show_icons=true&theme=transparent&title_color=07699c&icon_color=d92662)](https://github.com/vswood/github-readme-stats)
+[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=vswood)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vswood&layout=compact&theme=transparent&title_color=07699c)
