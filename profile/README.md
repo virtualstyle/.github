@@ -122,26 +122,6 @@ The goal: to help small businesses *own* their technology — not be owned by it
 <br><br>
 </p>
 
-## ✳️ Live Stats & Activity
-
-<div align="center" style="border:1.5px solid #17699c;">
-
-
-
-[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=vswood)](https://github.com/anuraghazra/github-readme-stats)
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vswood&layout=compact&theme=transparent&title_color=07699c)
-
-
-</div>
-
-<p align="center">
-<br>
-  <img src="./static/divider-binary-a.svg" width="100%" alt="divider" style="opacity:0.75;">
-<br><br>
-</p>
-
 ## 🧩 Technologies We Love
 
 | Cloud & DevOps                      | Web & UI                       | Intelligence & Automation        |
