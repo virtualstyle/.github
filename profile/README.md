@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  # 🧠 virtualStyle intelligent systems engineering
+  # virtual<span style="color:#17699c;font-weight:bold;">Style</span> intelligent systems engineering
   ### Fast, Business-Ready Solutions & Rapid IT Transformation for SMBs
   **Enterprise-level tech, custom-fit for small business.**
 
@@ -17,7 +17,7 @@
 <p align="center">
 <br>
   <img src="./static/divider-binary-a.svg" width="100%" alt="divider" style="opacity:0.75;">
-<br><br>
+<br>
 </p>
 
 ## Who We Are
@@ -31,7 +31,6 @@ Our mission is to make enterprise-grade IT power available, accessible, and  con
 <br>
 
 ---
-<br>
 
 
 ### About Us
@@ -47,19 +46,16 @@ Whether it's DIY-friendly systems, or hands-on support, we provide the clarity, 
 
 
 <p align="center">
-<br>
+<br><br>
   <img src="./static/divider-binary-a.svg" width="100%" alt="divider" style="opacity:0.75;">
 <br><br>
 </p>
 
 
-## Code Examples and Demonstrations
+## Code Examples/Demos
 
 We're still working on broadening what we have publicly available, but we're confident the examples linked below serve as good examples of the quality we produce.
 
-<br>
-
----
 <br>
 
 **We feel these examples of our original work demonstrate:**
@@ -72,7 +68,10 @@ We're still working on broadening what we have publicly available, but we're con
 
 <br>
 
----
+- [Example One Link](http://github.com)
+- [Example Two Link](http://github.com)
+- [Example Three Link](http://github.com)
+
 <br>
 
 **We feel these modules we've adapted from open source demonstrate all of the above, as well as:**
@@ -83,6 +82,14 @@ We're still working on broadening what we have publicly available, but we're con
 - we create order out of disorder
 - we create custom configurable software from one-size-fits all non-customizeable code
 
+<br>
+
+- [Example One Link](http://github.com)
+- [Example Two Link](http://github.com)
+- [Example Three Link](http://github.com)
+
+<br>
+
 <p align="center">
 <br>
   <img src="./static/divider-binary-a.svg" width="100%" alt="divider" style="opacity:0.75;">
@@ -90,20 +97,20 @@ We're still working on broadening what we have publicly available, but we're con
 </p>
 
 
-## Our Driving Force
+## The Driving Force Behind virtual<span style="color:#17699c;font-weight:bold;">Style</span>
 
 ### Rob Wood, virtual<span style="color:#17699c;font-weight:bold;">Style</span>'s Founder and Principal Strategist/Engineer
 
-I’m **Rob Wood**, founder of virtualStyle —
-a Senior Principal Software Engineer and Cloud Systems Architect with 20 + years of experience building web and enterprise systems.
+An accomplished Senior Principal Software Engineer and Cloud Systems Architect with 20 + years of experience building web and enterprise systems and transforming IT teams and processes.
 
-I’ve worked across the full stack: from hardware to UX, from DevOps pipelines to AI-assisted workflows.
-My goal is to help small businesses *own* their technology — not be owned by it.
+Over 25 years of broad experience across numerous full stack technologies and platforms: from hardware to UX, DevOps pipelines to AI-assisted workflows, and from single coder shops to the industry leaders of FAANG.
 
-> “We don’t just build systems that work — we build systems that evolve.”
+The goal: to help small businesses *own* their technology — not be owned by it. To help owners, managers, and employees learn the joy of excellent technology, and not be fearful or suspicious of it, or burdened by it - to use the benefits technology provides to compete at the highest levels of which they are capable, and beyond.
 
-- [Personal GitHub Profile →](https://github.com/vswood)
-- [Repository List →](https://github.com/vswood?tab=repositories)
+> “Our systems **must** work, and they do, but more important - they must **evolve**.”
+
+- [Rob's GitHub Profile →](https://github.com/vswood)
+- [Rob's Repository List →](https://github.com/vswood?tab=repositories)
 
 <p align="center">
 <br>
