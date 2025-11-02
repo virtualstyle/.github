@@ -124,8 +124,10 @@ The goal: to help small businesses *own* their technology — not be owned by it
 
 
 
-![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=rob-wood&show_icons=true&theme=transparent&title_color=076599&icon_color=f08301)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rob-wood&layout=compact&theme=transparent&title_color=076599)
+[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=vswood&show_icons=true&theme=transparent&title_color=07699c&icon_color=d92662)](https://github.com/vswood/github-readme-stats)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vswood&layout=compact&theme=transparent&title_color=07699c)
 
 
 </div>
