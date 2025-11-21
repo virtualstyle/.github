@@ -65,7 +65,15 @@ The goal: to help small businesses *own* their technology — not be owned by it
 > “Our systems **must** work, and they do, but more important - they must **evolve**.”
 
 - [Rob's GitHub Profile →](https://github.com/vswood)
+
+## Code & Demos
+
 - [Rob's Repository List →](https://github.com/vswood?tab=repositories)
+- [virtualStyle's Repository List →](https://github.com/virtualstyle?tab=repositories)
+
+### Featured Repositories & Demos
+
+**Coming Soon!**
 
 <p align="center">
 <br>
